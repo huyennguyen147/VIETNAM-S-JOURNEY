@@ -1,607 +1,224 @@
 <!DOCTYPE html>
 <html lang="vi">
-
 <head>
     <meta charset="UTF-8">
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>Khám Phá Việt Nam</title>
-
+    <title>VIETNAM S-JOURNEY - Khám phá Việt Nam</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
+    <!-- MENU -->
     <header>
+        <nav class="navbar">
 
-        <div class="logo">
-            🇻🇳 Vietnam Travel
-        </div>
+            <a href="index.html" class="logo">
+                🇻🇳 VIETNAM S-JOURNEY
+            </a>
 
-        <nav>
-            <a href="#trang-chu">Trang chủ</a>
-            <a href="#ban-do">Bản đồ</a>
-            <a href="#hanh-trinh">Hành trình</a>
-            <a href="#dia-diem">Địa điểm</a>
-            <a href="#lien-he">Liên hệ</a>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="active">Trang chủ</a></li>
+                <li><a href="mien-bac.html">Miền Bắc</a></li>
+                <li><a href="mien-trung.html">Miền Trung</a></li>
+                <li><a href="mien-nam.html">Miền Nam</a></li>
+                <li><a href="trai-nghiem.html">Trải nghiệm</a></li>
+            </ul>
+
         </nav>
-
-        <a href="#ban-do" class="header-button">
-            Bắt đầu
-        </a>
-
     </header>
 
-    <section class="hero" id="trang-chu">
+
+    <!-- HERO -->
+    <section class="hero home-hero">
 
         <div class="hero-content">
 
-            <p class="welcome">
-                ✨ CHÀO MỪNG ĐẾN VỚI VIỆT NAM
-            </p>
+            <p class="small-title">WELCOME TO VIETNAM</p>
 
             <h1>
-                Khám phá vẻ đẹp
-                <span>Việt Nam</span>
+                VIETNAM<br>
+                <span>S-JOURNEY</span>
             </h1>
 
-            <p class="description">
-                Bắt đầu hành trình khám phá đất nước hình chữ S từ Bắc vào Nam.
-                Mỗi vùng miền đều mang trong mình những nét đẹp riêng về thiên nhiên,
-                văn hóa, ẩm thực và con người.
+            <p>
+                Hành trình khám phá Việt Nam
+                từ Bắc vào Nam
             </p>
 
-            <div class="button-group">
+            <a href="#hanh-trinh" class="main-button">
+                Bắt đầu hành trình
+            </a>
 
-                <a href="#ban-do" class="btn-primary">
-                    🗺️ Khám phá bản đồ
+        </div>
+
+    </section>
+
+
+    <!-- GIỚI THIỆU -->
+    <section class="section">
+
+        <div class="section-title">
+
+            <p>KHÁM PHÁ</p>
+
+            <h2>Việt Nam qua hành trình chữ S</h2>
+
+            <span></span>
+
+        </div>
+
+        <div class="intro">
+
+            <div class="intro-text">
+
+                <h3>Một Việt Nam – Ba miền – Vô vàn trải nghiệm</h3>
+
+                <p>
+                    Việt Nam là một đất nước có vẻ đẹp đa dạng,
+                    trải dài từ những dãy núi phía Bắc đến những
+                    bãi biển miền Trung và vùng sông nước miền Nam.
+                </p>
+
+                <p>
+                    VIETNAM S-JOURNEY đưa bạn đi qua ba miền
+                    Bắc – Trung – Nam để khám phá cảnh đẹp,
+                    văn hóa, con người và ẩm thực đặc trưng
+                    của từng vùng miền.
+                </p>
+
+            </div>
+
+            <div class="intro-image">
+
+                <img
+                    src="https://images.unsplash.com/photo-1528127269322-539801943592?auto=format&fit=crop&w=900&q=80"
+                    alt="Phong cảnh Việt Nam"
+                >
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- HÀNH TRÌNH -->
+    <section class="section journey-section" id="hanh-trinh">
+
+        <div class="section-title">
+
+            <p>HÀNH TRÌNH</p>
+
+            <h2>Đi dọc Việt Nam</h2>
+
+            <span></span>
+
+        </div>
+
+
+        <div class="journey">
+
+            <!-- BẮC -->
+            <div class="journey-card">
+
+                <div class="journey-number">01</div>
+
+                <div class="journey-icon">🏔️</div>
+
+                <h3>MIỀN BẮC</h3>
+
+                <p>
+                    Nơi hội tụ vẻ đẹp thiên nhiên,
+                    lịch sử và văn hóa lâu đời.
+                </p>
+
+                <a href="mien-bac.html">
+                    Khám phá →
                 </a>
 
-                <a href="#dia-diem" class="btn-secondary">
-                    📍 Địa điểm nổi bật
+            </div>
+
+
+            <!-- TRUNG -->
+            <div class="journey-card">
+
+                <div class="journey-number">02</div>
+
+                <div class="journey-icon">🏖️</div>
+
+                <h3>MIỀN TRUNG</h3>
+
+                <p>
+                    Những bãi biển tuyệt đẹp,
+                    thành phố cổ và di sản văn hóa.
+                </p>
+
+                <a href="mien-trung.html">
+                    Khám phá →
+                </a>
+
+            </div>
+
+
+            <!-- NAM -->
+            <div class="journey-card">
+
+                <div class="journey-number">03</div>
+
+                <div class="journey-icon">🌴</div>
+
+                <h3>MIỀN NAM</h3>
+
+                <p>
+                    Vùng đất năng động với sông nước,
+                    miệt vườn và văn hóa đặc sắc.
+                </p>
+
+                <a href="mien-nam.html">
+                    Khám phá →
                 </a>
 
             </div>
 
         </div>
 
-        <div class="hero-card">
-
-            <div class="hero-card-icon">
-                🇻🇳
-            </div>
-
-            <h2>
-                Hành trình xuyên Việt
-            </h2>
-
-            <p>
-                🏔️ Miền Bắc
-            </p>
-
-            <p>
-                🏖️ Miền Trung
-            </p>
-
-            <p>
-                🌴 Miền Nam
-            </p>
-
-        </div>
-
     </section>
 
-    <section class="map-section" id="ban-do">
 
-        <div class="section-title">
+    <!-- CTA -->
+    <section class="cta">
 
-            <p>
-                🗺️ HÀNH TRÌNH KHÁM PHÁ
-            </p>
-
-            <h2>
-                Bản đồ Việt Nam hình chữ S
-            </h2>
-
-            <span>
-                Bắt đầu hành trình từ Bắc vào Nam
-            </span>
-
-        </div>
-
-        <div class="map-layout">
-
-            <div class="map-info">
-
-                <div class="info-box north-box">
-
-                    <h3>
-                        🏔️ Miền Bắc
-                    </h3>
-
-                    <p>
-                        📍 Hà Nội
-                    </p>
-
-                </div>
-
-                <div class="info-box central-box">
-
-                    <h3>
-                        🏖️ Miền Trung
-                    </h3>
-
-                    <p>📍 Huế</p>
-                    <p>📍 Đà Nẵng</p>
-                    <p>📍 Hội An</p>
-
-                </div>
-
-                <div class="info-box south-box">
-
-                    <h3>
-                        🌴 Miền Nam
-                    </h3>
-
-                    <p>📍 TP. Hồ Chí Minh</p>
-                    <p>📍 Đồng bằng sông Cửu Long</p>
-                    <p>📍 Phú Quốc</p>
-
-                </div>
-
-            </div>
-
-            <div class="map-container">
-
-                <div class="map-title">
-                    🇻🇳 Việt Nam
-                </div>
-
-                <svg
-                    class="vietnam-map"
-                    viewBox="0 0 500 750"
-                    xmlns="http://www.w3.org/2000/svg">
-
-                    <path
-                        class="map-shape"
-
-                        d="
-                        M250 30
-                        C180 45, 150 85, 170 125
-                        C195 165, 160 205, 185 245
-                        C210 285, 175 325, 200 365
-                        C225 405, 195 445, 220 485
-                        C245 525, 220 575, 265 650
-                        C300 710, 270 730, 230 690
-                        C190 650, 180 600, 165 555
-                        C150 510, 165 470, 145 430
-                        C125 390, 145 350, 120 310
-                        C95 270, 120 230, 105 190
-                        C90 150, 110 105, 140 70
-                        C170 35, 205 25, 250 30
-                        Z"
-
-                        fill="#1976d2"
-
-                        stroke="#0d5cad"
-
-                        stroke-width="6"
-                    />
-
-                    <circle
-                        cx="175"
-                        cy="130"
-                        r="13"
-                        class="location-dot north"
-                    />
-
-                    <text
-                        x="205"
-                        y="135"
-                        class="map-text">
-                        Hà Nội
-                    </text>
-
-                    <circle
-                        cx="205"
-                        cy="300"
-                        r="13"
-                        class="location-dot central"
-                    />
-
-                    <text
-                        x="230"
-                        y="305"
-                        class="map-text">
-                        Huế
-                    </text>
-
-                    <circle
-                        cx="210"
-                        cy="340"
-                        r="13"
-                        class="location-dot orange"
-                    />
-
-                    <text
-                        x="235"
-                        y="345"
-                        class="map-text">
-                        Đà Nẵng
-                    </text>
-
-                    <circle
-                        cx="215"
-                        cy="380"
-                        r="13"
-                        class="location-dot central"
-                    />
-
-                    <text
-                        x="240"
-                        y="385"
-                        class="map-text">
-                        Hội An
-                    </text>
-
-                    <circle
-                        cx="240"
-                        cy="535"
-                        r="13"
-                        class="location-dot orange"
-                    />
-
-                    <text
-                        x="265"
-                        y="540"
-                        class="map-text">
-                        TP.HCM
-                    </text>
-
-                    <circle
-                        cx="240"
-                        cy="610"
-                        r="13"
-                        class="location-dot south"
-                    />
-
-                    <text
-                        x="265"
-                        y="615"
-                        class="map-text small-text">
-                        ĐBSCL
-                    </text>
-
-                    <circle
-                        cx="120"
-                        cy="620"
-                        r="13"
-                        class="location-dot orange"
-                    />
-
-                    <text
-                        x="45"
-                        y="650"
-                        class="map-text">
-                        Phú Quốc
-                    </text>
-
-                </svg>
-
-                <div class="map-legend">
-
-                    <div>
-                        <span class="legend-dot blue-dot"></span>
-                        Miền Bắc
-                    </div>
-
-                    <div>
-                        <span class="legend-dot green-dot"></span>
-                        Miền Trung
-                    </div>
-
-                    <div>
-                        <span class="legend-dot orange-dot"></span>
-                        Miền Nam
-                    </div>
-
-                </div>
-
-            </div>
-
-        </div>
-
-    </section>
-
-    <section class="journey" id="hanh-trinh">
-
-        <div class="section-title">
-
-            <p>
-                HÀNH TRÌNH XUYÊN VIỆT
-            </p>
-
-            <h2>
-                Khám phá ba miền đất nước
-            </h2>
-
-        </div>
-
-        <div class="journey-cards">
-
-            <div class="journey-card north-card">
-
-                <div class="journey-icon">
-                    🏔️
-                </div>
-
-                <h3>
-                    Miền Bắc
-                </h3>
-
-                <p>
-                    Khám phá Hà Nội với vẻ đẹp nghìn năm văn hiến
-                    và những nét văn hóa truyền thống.
-                </p>
-
-                <span>
-                    📍 Hà Nội
-                </span>
-
-            </div>
-
-            <div class="journey-card central-card">
-
-                <div class="journey-icon">
-                    🏖️
-                </div>
-
-                <h3>
-                    Miền Trung
-                </h3>
-
-                <p>
-                    Trải nghiệm vẻ đẹp cổ kính, hiện đại
-                    và thơ mộng của miền Trung Việt Nam.
-                </p>
-
-                <span>
-                    📍 Huế
-                </span>
-
-                <span>
-                    📍 Đà Nẵng
-                </span>
-
-                <span>
-                    📍 Hội An
-                </span>
-
-            </div>
-
-            <div class="journey-card south-card">
-
-                <div class="journey-icon">
-                    🌴
-                </div>
-
-                <h3>
-                    Miền Nam
-                </h3>
-
-                <p>
-                    Khám phá nhịp sống sôi động, miền Tây sông nước
-                    và những thiên đường biển đảo.
-                </p>
-
-                <span>
-                    📍 TP.HCM
-                </span>
-
-                <span>
-                    📍 Đồng bằng sông Cửu Long
-                </span>
-
-                <span>
-                    📍 Phú Quốc
-                </span>
-
-            </div>
-
-        </div>
-
-    </section>
-
-    <section class="places" id="dia-diem">
-
-        <div class="section-title">
-
-            <p>
-                ĐIỂM ĐẾN NỔI BẬT
-            </p>
-
-            <h2>
-                Khám phá những địa điểm nổi tiếng
-            </h2>
-
-        </div>
-
-        <div class="region">
-
-            <div class="region-title north-title">
-                🏔️ Miền Bắc
-            </div>
-
-            <div class="place-list one-place">
-
-                <div class="place">
-
-                    <div class="place-icon">
-                        🏯
-                    </div>
-
-                    <h3>
-                        Hà Nội
-                    </h3>
-
-                    <p>
-                        Thủ đô nghìn năm văn hiến với những giá trị
-                        lịch sử, văn hóa và ẩm thực đặc sắc.
-                    </p>
-
-                </div>
-
-            </div>
-
-        </div>
-
-        <div class="region">
-
-            <div class="region-title central-title">
-                🏖️ Miền Trung
-            </div>
-
-            <div class="place-list">
-
-                <div class="place">
-
-                    <div class="place-icon">
-                        🌉
-                    </div>
-
-                    <h3>
-                        Đà Nẵng
-                    </h3>
-
-                    <p>
-                        Thành phố đáng sống với biển xanh,
-                        núi đẹp và những cây cầu nổi tiếng.
-                    </p>
-
-                </div>
-
-                <div class="place">
-
-                    <div class="place-icon">
-                        🏮
-                    </div>
-
-                    <h3>
-                        Hội An
-                    </h3>
-
-                    <p>
-                        Phố cổ thơ mộng với những chiếc
-                        đèn lồng đầy màu sắc.
-                    </p>
-
-                </div>
-
-                <div class="place">
-
-                    <div class="place-icon">
-                        🏯
-                    </div>
-
-                    <h3>
-                        Huế
-                    </h3>
-
-                    <p>
-                        Cố đô cổ kính với những công trình
-                        lịch sử và văn hóa đặc sắc.
-                    </p>
-
-                </div>
-
-            </div>
-
-        </div>
-
-        <div class="region">
-
-            <div class="region-title south-title">
-                🌴 Miền Nam
-            </div>
-
-            <div class="place-list">
-
-                <div class="place">
-
-                    <div class="place-icon">
-                        🏙️
-                    </div>
-
-                    <h3>
-                        TP. Hồ Chí Minh
-                    </h3>
-
-                    <p>
-                        Thành phố năng động, hiện đại và sôi động
-                        bậc nhất Việt Nam.
-                    </p>
-
-                </div>
-
-                <div class="place">
-
-                    <div class="place-icon">
-                        🚣
-                    </div>
-
-                    <h3>
-                        Đồng bằng sông Cửu Long
-                    </h3>
-
-                    <p>
-                        Khám phá miền Tây sông nước, chợ nổi
-                        và những vườn cây trái.
-                    </p>
-
-                </div>
-
-                <div class="place">
-
-                    <div class="place-icon">
-                        🏝️
-                    </div>
-
-                    <h3>
-                        Phú Quốc
-                    </h3>
-
-                    <p>
-                        Thiên đường biển đảo với làn nước trong xanh
-                        và những bãi cát trắng.
-                    </p>
-
-                </div>
-
-            </div>
-
-        </div>
-
-    </section>
-
-    <footer id="lien-he">
-
-        <h2>
-            🇻🇳 Vietnam Travel
-        </h2>
+        <h2>Sẵn sàng khám phá Việt Nam?</h2>
 
         <p>
-            Khám phá vẻ đẹp Việt Nam từ Bắc vào Nam
+            Hãy bắt đầu chuyến hành trình của bạn ngay hôm nay.
         </p>
 
-        <div class="footer-line"></div>
+        <a href="trai-nghiem.html" class="main-button">
+            Xem trải nghiệm
+        </a>
+
+    </section>
+
+
+    <!-- FOOTER -->
+    <footer>
+
+        <h3>🇻🇳 VIETNAM S-JOURNEY</h3>
+
+        <p>
+            Hành trình khám phá Việt Nam từ Bắc vào Nam.
+        </p>
 
         <p class="copyright">
-            © 2026 Vietnam Travel
+            © 2026 VIETNAM S-JOURNEY
         </p>
 
     </footer>
 
-</body>
 
+    <script src="script.js"></script>
+
+</body>
 </html>
